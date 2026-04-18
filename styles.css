@@ -899,11 +899,7 @@ margin: 0.4rem 0 0.3rem;
 .timeline h3 {
   margin: 0.4rem 0 0.3rem;
   font-family: "Cormorant Garamond", serif;
-   line-height: 1.7;
-  font-style: italic;
-  text-align: center;
-  color: var(--text);
-  font-weight: 400;
+  font-weight: 600;
 }
 .info-panel h2,
 .footer-panel h2 {
