@@ -875,6 +875,7 @@ text-align: center;
   background:
     linear-gradient(135deg, rgba(183, 110, 121, 0.12), rgba(255, 248, 240, 0.95)),
     var(--surface-strong);
+}
   .info-panel h2,
 .footer-panel h2,
 .timeline h3 {
