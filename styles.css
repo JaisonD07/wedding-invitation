@@ -871,7 +871,7 @@ text-align: center;
 
 }
 
-/**/.info-panel.highlight {
+.info-panel.highlight {
   background:
     linear-gradient(135deg, rgba(183, 110, 121, 0.12), rgba(255, 248, 240, 0.95)),
     var(--surface-strong);
@@ -879,19 +879,19 @@ text-align: center;
   /*.info-panel h2,
 .footer-panel h2,
 .timeline h3 {
-  margin: 0.3rem 0;
+margin: 0.4rem 0 0.3rem;
   font-family: "Cormorant Garamond", serif;
-  font-weight: 400;   
+  font-weight: 600;   
   font-size: 1rem;    
   line-height: 1.5;
-  letter-spacing: 0.01em; */
+  letter-spacing: 0.01em; 
 .info-panel h2, 
 .footer-panel h2, 
 .timeline h3 { 
   margin: 0.4rem 0 0.3rem; 
   font-family: "Cormorant Garamond", serif; 
   font-weight: 600;
-}
+}*/
 
 .info-panel h2,
 .footer-panel h2,
