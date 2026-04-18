@@ -950,14 +950,14 @@ text-align: center;
 }
 
 .quote-block p {
-    margin: 0;
-    font-family: "Cormorant Garamond", serif;
-    font-size: clamp(1rem, 2vw, 1.4rem);
-    font-style: italic;
-    max-width: 600px;
+  margin: 0;
+  font-family: "Cormorant Garamond", serif;
+  font-size: clamp(1rem, 2vw, 1.4rem);
+  font-style: italic;
+  max-width: 600px;
   margin-left: auto;
   margin-right: auto;
-  font-weight: 400; /* remove bold */
+  font-weight: 400;
   letter-spacing: 0.03em;
 }
 
