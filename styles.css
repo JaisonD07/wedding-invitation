@@ -876,12 +876,22 @@ text-align: center;
     var(--surface-strong);
 }
 
-.info-panel h2,
+/*.info-panel h2,
 .footer-panel h2,
 .timeline h3 {
   margin: 0.4rem 0 0.3rem;
   font-family: "Cormorant Garamond", serif;
-  font-weight: 600;
+  font-weight: 600;*/
+
+.info-panel h2,
+.footer-panel h2,
+.timeline h3 {
+  margin: 0.3rem 0;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;   /* remove bold */
+  font-size: 1rem;    /* reduce size */
+  line-height: 1.5;
+  letter-spacing: 0.01em;
 }
 
 .info-panel h2,
