@@ -881,11 +881,16 @@ text-align: center;
 .timeline h3 {
   margin: 0.3rem 0;
   font-family: "Cormorant Garamond", serif;
-  font-weight: 400;   /* remove bold */
-  font-size: 1rem;    /* reduce size */
+  font-weight: 400;   
+  font-size: 1rem;    
   line-height: 1.5;
-  letter-spacing: 0.01em;
-.info-panel h2, .footer-panel h2, .timeline h3 { margin: 0.4rem 0 0.3rem; font-family: "Cormorant Garamond", serif; font-weight: 600;*/
+  letter-spacing: 0.01em; */
+.info-panel h2, 
+.footer-panel h2, 
+.timeline h3 { 
+  margin: 0.4rem 0 0.3rem; 
+  font-family: "Cormorant Garamond", serif; 
+  font-weight: 600;
 }
 
 .info-panel h2,
@@ -896,14 +901,15 @@ text-align: center;
   font-weight: 600;
 }
 .info-panel h2,
-.footer-panel h2,
-.timeline h3 {
-  margin: 0.3rem 0;
+.footer-panel h2 {
+  font-size: 1.4rem;
+}
+ /* margin: 0.3rem 0;
   font-family: "Cormorant Garamond", serif;
-  font-weight: 400;   /* remove bold */
-  font-size: 1rem;    /* reduce size */
+  font-weight: 400;  
+  font-size: 1rem;   
   line-height: 1.5;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.01em;*/
 }
 
 /*.info-panel h2,
