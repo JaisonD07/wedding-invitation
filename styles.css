@@ -863,11 +863,20 @@ text-align: center;
   border: 0;
 }
 
-.info-panel {
+/*.info-panel {
   padding: 1.35rem;
   border-radius: 1.6rem;
   background: var(--surface-strong);
-  border: 1px solid var(--border);
+  border: 1px solid var(--border);*/
+.info-panel h2,
+.footer-panel h2,
+.timeline h3 {
+  margin: 0.3rem 0;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;   /* remove bold */
+  font-size: 1rem;    /* reduce size */
+  line-height: 1.5;
+  letter-spacing: 0.01em;
 }
 
 .info-panel.highlight {
