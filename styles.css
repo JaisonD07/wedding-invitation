@@ -786,10 +786,19 @@ text-align: center;
 }
 
 .announcement {
-  margin: 0;
+ /* margin: 0;
   color: var(--muted);
   font-size: 1rem;
-  text-shadow: 0 4px 18px rgba(255, 251, 247, 0.7);
+  text-shadow: 0 4px 18px rgba(255, 251, 247, 0.7);*/
+  margin: 0;
+  font-family: "Cormorant Garamond", serif;
+  font-size: clamp(1rem, 2vw, 1.3rem);
+  line-height: 1.7;
+  font-style: italic;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--text);
 }
 
 .date-badge {
